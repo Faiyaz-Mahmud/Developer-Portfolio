@@ -1,5 +1,6 @@
 body{
     font-family: 'Mochiy Pop One', sans-serif;
+    margin: 0;
 }
 .heading{
     font-size:55px;
@@ -17,7 +18,7 @@ small{
 }
 .writing{
     width: 50%;
-    margin-left: 50px;
+    margin-left: 65px;
     
 }
 .picture{
@@ -82,10 +83,6 @@ section{
     font-size:30px;
 }
 
-.box small{
-    text-align: center;
-}
-
 
 .box p{
     text-align: center;
@@ -97,5 +94,12 @@ section{
     
 }
 .intro{
-    margin-top: 2%;
+    
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.expo{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y:18ch;
 }
