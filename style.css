@@ -1,0 +1,46 @@
+body{
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+h1{
+    font-size:55px;
+    
+}
+span{
+    color:orange;
+}
+.first{
+    margin-top: 80px;
+
+}
+small{
+    color: gray;
+}
+.writing{
+    width: 50%;
+    margin-left: 50px;
+    
+}
+.picture{
+    margin-left: 90px;
+    margin-right: 35px;
+    
+}
+.picture img{
+    width: 100%;
+}
+section{
+    display: flex;
+    width: 100%;
+
+}
+.link-button{
+    
+    text-decoration: none;
+    background-color: orangered;
+    background-image: linear-gradient(orange ,tomato);
+    padding: 12px 18px;
+    border-radius: 5px;
+    color:whitesmoke;
+    font-weight: 400;
+    font-size: small;
+}
