@@ -1,7 +1,7 @@
 body{
     font-family: 'Mochiy Pop One', sans-serif;
 }
-h1{
+.heading{
     font-size:55px;
     
 }
@@ -27,6 +27,7 @@ small{
 }
 .picture img{
     width: 100%;
+    margin-top: 7%;
 }
 section{
     display: flex;
@@ -43,4 +44,58 @@ section{
     color:whitesmoke;
     font-weight: 400;
     font-size: small;
+}
+.link-button2{
+    text-decoration: none;
+    color: white;
+    background-image:linear-gradient(pink ,red);
+    padding: 8px 10px;
+    border-radius: 5px;
+    
+}
+.half-width{
+    width: 100%;
+    padding: 4%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.half-width img{
+    width: 100%;
+}
+.box{
+    width: 100%;
+    border: solid gray 2px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 2% 2%;
+}
+.exp{
+    color: black;
+    background-image: linear-gradient(white,rgb(184, 180, 180));
+    margin-left:35% ;
+    padding: 15px 25px;
+    border-radius: 10px;
+
+}
+.box h1 {
+    text-align: center;
+    font-size:30px;
+}
+
+.box small{
+    text-align: center;
+}
+
+
+.box p{
+    text-align: center;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    
+}
+.intro{
+    margin-top: 2%;
 }
