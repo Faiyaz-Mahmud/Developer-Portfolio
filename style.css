@@ -69,6 +69,8 @@ section{
     padding: 15px;
     border-radius: 10px;
     margin: 2% 2%;
+    box-shadow:7px 7px 30px grey ;
+    
 }
 .exp{
     color: black;
@@ -86,12 +88,16 @@ section{
 
 .box p{
     text-align: center;
+    
 }
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
     
+}
+.half-width small{
+    text-align:justify;
 }
 .intro{
     
@@ -102,4 +108,25 @@ section{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position-y:18ch;
+}
+#left-box{
+    border-top: solid 10px orange;
+    background-color:peachpuff;
+    
+
+}
+#middle-box{
+    border-bottom:solid 10px orangered;
+    
+    background-color:antiquewhite
+
+}
+#right-box{
+    border-top: 10px solid rgb(228, 174, 108);
+    background-color: antiquewhite;
+
+}
+footer{
+    text-align: center;
+    margin-top: 70px;
 }
